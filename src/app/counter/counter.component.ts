@@ -23,11 +23,9 @@ export class CounterComponent implements OnInit {
       this.count.set(0);
     }, 4000);
 
-
     setTimeout(() => {
       console.log('Timer expired!');
     }, 5000);
-
 
   }
 
