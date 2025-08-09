@@ -12,7 +12,6 @@ import { InfoMessageComponent } from '../info-message/info-message.component';
 })
 export class CounterComponent implements OnInit {
   private zone = inject(NgZone);
-
   count = signal(0);
 
   get debugOutput() {
